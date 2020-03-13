@@ -1,5 +1,5 @@
     div.test {
-        height: 50px;
+        height: 25px;
         background-color: blue;
     }
     
@@ -13,6 +13,18 @@
         background-image: url(http://placekitten.com/200/200);
         background-repeat: no-repeat;
         background-position: center;
+    }
+    
+    .navbar-social-group {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar-icono {
+        display: flex;
+        height: 25px;
+        background-color: blue;
     }
     
     @media only screen and (max-width: 768px) {
