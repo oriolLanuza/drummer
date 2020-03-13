@@ -1,0 +1,26 @@
+    body {
+        font-family: 'Rock Salt', cursive;
+        margin-top: 75px;
+    }
+    
+    img.logo {
+        height: 50px;
+    }
+    
+    .nav-item {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .nav-item:hover {
+        text-decoration: underline;
+    }
+    
+    #presentation-images {
+        text-align: center;
+    }
+    
+    #presentation-images img {
+        max-width: 1024px;
+    }
