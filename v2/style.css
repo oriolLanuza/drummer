@@ -72,11 +72,17 @@
     
     div.foto-logo {
         height: 50px;
+        text-align: left;
     }
     
     .logo {
         height: 50px;
         border-radius: 5px;
+    }
+    
+    .social-media-group {
+        display: flex;
+        justify-content: space-around;
     }
     
     .social-media {
