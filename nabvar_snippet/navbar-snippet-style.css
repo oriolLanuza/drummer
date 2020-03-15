@@ -23,8 +23,15 @@
     
     .navbar-icono {
         display: flex;
-        height: 25px;
-        background-color: blue;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+    
+    .btn-menu {
+        width: 100%;
+        text-align: center;
     }
     
     @media only screen and (max-width: 768px) {
