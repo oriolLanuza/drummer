@@ -1,26 +1,54 @@
-    body {
-        font-family: 'Rock Salt', cursive;
-        margin-top: 75px;
-    }
-    
-    img.logo {
+div.test {
+    height: 25px;
+    background-color: blue;
+}
+
+.style-standard {
+    background-color: beige;
+    color: orange;
+}
+
+div.navbar-logo {
+    height: 100px;
+    background-image: url(http://placekitten.com/200/200);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100px;
+}
+
+.navbar-icono {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.btn-menu {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-button {
+    background-color: rgb(136, 136, 104);
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    color: beige;
+}
+
+.navbar-button-link {
+    color: beige;
+    font-size: large;
+}
+
+.navbar-button-link:hover {
+    color: beige;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    div.navbar-logo {
         height: 50px;
+        background-size: auto 50px;
     }
-    
-    .nav-item {
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-    .nav-item:hover {
-        text-decoration: underline;
-    }
-    
-    #presentation-images {
-        text-align: center;
-    }
-    
-    #presentation-images img {
-        max-width: 1024px;
-    }
+}
