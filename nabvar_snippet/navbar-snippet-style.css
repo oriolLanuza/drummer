@@ -13,6 +13,7 @@
         background-image: url(http://placekitten.com/200/200);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: auto 100px;
     }
     
     .navbar-social-group {
@@ -37,5 +38,6 @@
     @media only screen and (max-width: 768px) {
         div.navbar-logo {
             height: 50px;
+            background-size: auto 50px;
         }
     }
